@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif; /* Chọn font chữ dễ nhìn */
+}
+#link_head {
+  background-color: #333; /* Màu nền tối (đen xám) */
+  height: 70px; /* Chiều cao thanh menu */
+  display: flex; /* QUAN TRỌNG: Dàn hàng ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  padding: 0 50px; /* Khoảng cách lề trái phải */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Đổ bóng nhẹ cho đẹp */
+}
+#logo {
+  height: 200px; /* Giới hạn chiều cao logo để không bị vỡ khung */
+  width: auto;
+  object-fit: contain;
+  border-radius: 50%; /* Nếu muốn logo hình tròn */
+}
+#link_head a {
+  text-decoration: none; /* Bỏ gạch chân */
+  color: white; /* Chữ màu trắng */
+  font-weight: bold; /* Chữ đậm */
+  margin-left: 25px; /* Khoảng cách giữa các chữ */
+  font-size: 14px;
+  transition: 0.3s; /* Hiệu ứng chuyển màu mượt mà */
+  padding: 10px;
+  text-transform: uppercase; /* Viết hoa toàn bộ */
+}
+#link_head a:hover {
+  color: #f1c40f; /* Đổi thành màu vàng khi di chuột */
+  background-color: rgba(255, 255, 255, 0.1); /* Nền mờ nhẹ */
+  border-radius: 4px;
+}
+#tieu_de {
+  padding: 50px;
+  text-shadow: #555;
+  font-size: larger;
+}
+#banner {
+  display: flex; /* Lệnh quan trọng để xếp ngang hàng */
+  align-items: center; /* Căn giữa theo chiều dọc (để chữ không bị lệch lên trên) */
+  gap: 20px; /* Tạo khoảng cách giữa Logo và Chữ */
+  padding: 20px; /* Khoảng cách từ viền vào trong cho thoáng */
+  background-color: #dddddd;
+}
+#tieu_de h2 {
+  font-size: 16px; /* Cỡ chữ dòng dưới nhỏ hơn */
+  color: #555; /* Màu chữ xám nhạt hơn */
+  font-weight: normal;
+}
+
+#h2 {
+  font-size: 40px;
+  padding: 5px 15px;
+}
+#h3 {
+  font-size: 20px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.nd {
+  padding: 10px 50px;
+}
+p {
+  padding: 20px;
+}
+img {
+  padding: 20px;
+}
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.main .nd #img_ban_tin1 {
+  display: block; /* Biến ảnh thành khối (block) để chỉnh lề được */
+  margin-left: auto; /* Tự động căn lề trái */
+  margin-right: auto; /* Tự động căn lề phải -> Kết quả là nằm giữa */
+}
+.main .nd #img_so2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main .nd #img_so3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
